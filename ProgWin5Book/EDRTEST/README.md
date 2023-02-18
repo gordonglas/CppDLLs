@@ -16,7 +16,7 @@ Some additional setup was necessary in order to build:
 
 For EDRTEST project,
 * in project properties -> C/C++ -> in `Additional Include Directories`, I had to add the path to the "edrlib.h" file. This is required for the EDRTEST code to see the header.
-* in project properties -> Linker -> General -> in `Additional Library Directories`, I had to add the path to the EDRLIB project's output folder, which is `$(SolutionDir)$(Platform)\$(Configuration)\`. This is required so EDRTEST can find the lib file.
+* in project properties -> Linker -> General -> in `Additional Library Directories`, I had to add the path to the EDRLIB project's output folder, which is `$(SolutionDir)$(Platform)\$(Configuration)\`. This is required so EDRTEST can find the lib file during the LINK step of the build.
 * in project properties -> Linker -> Input -> in `Additional Dependencies`, I had to add `EDRLIB.lib`. This is required so EDRTEST will use the lib file during the LINK step of the build.
 
 * Note that the output folders in BOTH projects need to be same, so when the EXE is run, it can find the DLL in the same folder at runtime. Both output folders were the same by default.
