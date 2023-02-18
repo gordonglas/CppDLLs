@@ -1,4 +1,4 @@
-#include "framework.h"
+#include "../framework.h"
 
 #ifdef __cplusplus
 #define EXPORT extern "C" __declspec(dllexport)

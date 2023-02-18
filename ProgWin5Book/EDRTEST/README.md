@@ -1,7 +1,7 @@
 # EDRTEST code from the book Programming Windows, 5th Edition
 
 This is sample code from the book Programming Windows, 5th Edition, by Charles Petzold.  
-It has been updated to work on Visual Studio 2022. Some code is a little different than his sample, but it accomplishes the same thing.  
+It has been updated to work on Visual Studio 2022. Some code is a little different than the book's sample, but it accomplishes the same thing.  
 That is, to have an EXE call a function in a DLL.  
 This function paints GDI text in the center of the client window.  
 The DLL is loaded automatically by Windows when the EXE is launched. That is, this code does NOT demonstrate the [LoadLibrary](https://learn.microsoft.com/en-us/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryw) or [LoadLibraryEx](https://learn.microsoft.com/en-us/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryexw) functions.  
