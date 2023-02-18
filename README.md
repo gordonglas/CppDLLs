@@ -7,4 +7,5 @@ Even though it was written in 1998, [Programming Windows, 5th Edition](https://w
 ## Contents
 
 * `ProgWin5Book/` - Parent folder for DLL projects related to Programming Windows, 5th Edition, by Charles Petzold.
-    * `ProgWin5Book/EDRTEST` - EDRTEST code from the book, modified for Visual Studio 2022. An EXE calls a function in a DLL to display text in the center of the window's client area.
+    * `ProgWin5Book/EDRTEST` - EDRTEST code from the book. An EXE calls a function in a DLL to display text in the center of the window's client area.
+    * `ProgWin5Book/STRPROG` - STRPROG code from the book. Demonstrates using shared memory across multiple processes within a DLL.
