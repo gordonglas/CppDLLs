@@ -2,7 +2,7 @@
 
 Solution that demonstrates shared memory in a DLL.
 
-DLLs get their own memory space inside the process that uses them, so if multiple processes use the same DLL, the memory they work with is separate. This Visual Studio solution demonstrates using shared memory in the DLL (via a memory-mapped file), so multiple processes can work with the same memory within the DLL. You can use menu items to Enter and Delete the strings, while it automatically updates the client area of the window. Since it's shared memory, you should test by adding and deleting strings using multiple instances of the app.
+DLLs get their own memory space inside the process that uses them, so if multiple processes use the same DLL, the memory they work with is separate. This Visual Studio solution demonstrates using shared memory in the DLL (via a pragma linker directive), so multiple processes can work with the same memory within the DLL. You can use menu items to Enter and Delete the strings, while it automatically updates the client area of the window. Since it's shared memory, you should test by adding and deleting strings using multiple instances of the app.
 
 This is sample code from the book Programming Windows, 5th Edition, by Charles Petzold.  
 It has been updated to work on Visual Studio 2022. Some code is a little different than the book's sample, but it accomplishes the same thing.  
