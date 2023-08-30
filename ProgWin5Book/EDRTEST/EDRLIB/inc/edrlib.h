@@ -6,4 +6,4 @@
 #define EXPORT __declspec(dllexport)
 #endif
 
-EXPORT BOOL CALLBACK EdrCenterText(HDC, PRECT, PCWSTR);
+EXPORT BOOL EdrCenterText(HDC, PRECT, PCWSTR);

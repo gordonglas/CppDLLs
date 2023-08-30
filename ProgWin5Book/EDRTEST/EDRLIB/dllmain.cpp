@@ -15,7 +15,7 @@ BOOL APIENTRY DllMain(HMODULE hModule,
   return TRUE;
 }
 
-EXPORT BOOL CALLBACK EdrCenterText(HDC hdc, PRECT prc, PCWSTR pString) {
+EXPORT BOOL EdrCenterText(HDC hdc, PRECT prc, PCWSTR pString) {
   int iLength;
   SIZE size;
   iLength = lstrlenW(pString);
